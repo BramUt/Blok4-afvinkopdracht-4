@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bram Utberg">
+    <title>Afvink 4</title>
+</head>
+<body>
+    <form name="input_form" method="get">
+        <input type="text" name="seq" id="seq_box"
+               value="{{ seq }}">
+        <input type="submit">
+    </form>
+    Seq type: {{ seq_type }}<BR><BR>
+    DNA sequence:<BR>
+    {{ dna_seq }}<BR><BR>
+    RNA sequence:<BR>
+    {{ rna_seq }}<BR><BR>
+    Protein sequence:<BR>
+    {{ prot_seq }}<BR><BR>
+    Accessie code:<BR>
+    {{ acessie_code }}<BR><BR>
+
+</body>
+</html>
